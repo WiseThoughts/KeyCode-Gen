@@ -7,7 +7,7 @@
 body {
     font-family: "Montserrat";
     font-size: 20px;
-    background-color: aliceblue;
+    background-color: rgba(229, 137, 224, 1);
 }
 
 section {
@@ -30,14 +30,18 @@ section {
     max-width: 1000px;
 }
 .container2{
-    background-color: white;
+    background-color: rgba(160, 207, 228, 1);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
+    border:1px solid rgb(0, 0, 0);
     box-shadow: 1px 1px 20px 0px #0000001c;
+}
+.container2:hover{
+    box-shadow: 7px 7px 7px 15px white;
 }
 .container3{
     background-color: white;
@@ -46,7 +50,7 @@ section {
     justify-content: center;
     flex-direction: column;
     padding: 20px;
-    box-shadow: 0px 0px 20px 0px #0000001c;
+    border-radius: 20px;
 }
 .container4{
     background-color: white;
@@ -54,6 +58,8 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    border-radius: 20px;
+    border: 1px solid black;
 }
 .container h2 {
     font-size: 60px;
@@ -68,10 +74,12 @@ section {
     margin: 5px 0;
 }
 
+
 .arrow {
     box-shadow: none !important;
     background-color: transparent !important;
     padding: 0 100px !important;
+    border: none;
 }
 .arrow img {
     height: 80px;
@@ -89,7 +97,7 @@ section {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: aliceblue;
+    background-color: rgba(160, 207, 228, 1);
     display: flex;
     align-items: center;
     justify-content: center;
