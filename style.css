@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
+
 body {
-    font-family: "Montserrat";
     font-size: 20px;
     background-color: rgba(229, 137, 224, 1);
 }
+
 
 section {
     min-height: 100vh;
@@ -29,6 +30,8 @@ section {
     width: 90%;
     max-width: 1000px;
 }
+
+
 .container2{
     background-color: rgba(160, 207, 228, 1);
     display: flex;
@@ -40,9 +43,13 @@ section {
     border:1px solid rgb(0, 0, 0);
     box-shadow: 1px 1px 20px 0px #0000001c;
 }
+
+
 .container2:hover{
     box-shadow: 7px 7px 7px 15px white;
 }
+
+
 .container3{
     background-color: white;
     display: flex;
@@ -52,6 +59,8 @@ section {
     padding: 20px;
     border-radius: 20px;
 }
+
+
 .container4{
     background-color: white;
     display: flex;
@@ -61,6 +70,8 @@ section {
     border-radius: 20px;
     border: 1px solid black;
 }
+
+
 .container h2 {
     font-size: 60px;
     margin: 20px 0;
